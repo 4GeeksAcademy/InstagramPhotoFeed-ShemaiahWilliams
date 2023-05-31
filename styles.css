@@ -1,0 +1,65 @@
+body{
+    background-color: gray;
+    margin: 0;
+}
+
+header{
+    background: white;
+    padding: 10px;
+    margin-left:  24.6%;
+    margin-right: 24.6%;
+    
+}
+
+header h1{
+    margin: 0;
+    margin-right: 16px;
+    padding: 10px;
+}
+
+header h2 {
+    margin: 0%;
+    margin-left: 16px;
+}
+
+div.post{
+    background: white;
+}
+
+.dog-image {
+    display: block;
+    margin: auto;
+    
+    
+}  
+
+.post-header {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+    
+}    
+
+/* div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    
+}     */
+
+
+
+/* div.post h2, div.post p{
+    padding: 10px;
+} */
+
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
